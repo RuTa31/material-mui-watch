@@ -6,11 +6,9 @@ import CustomStyles from './theme/theme';
 
 function App() {
   return (
-    <Box sx={{backgroundColor: '#3f4245'}}>
-      <CustomStyles>
-        <Home />
-      </CustomStyles>
-    </Box>
+    <CustomStyles>
+      <Home />
+    </CustomStyles>
   );
 }
 

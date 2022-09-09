@@ -6,13 +6,13 @@ const theme = createTheme({
             main: '#000',
             light: '#ffff'
         },
-        background:{    
+        background: {
             default: '#e4f0e2'
         }
     }
 })
-export default function CustomStyles({children}) {
-    return(
+export default function CustomStyles({ children }) {
+    return (
         <ThemeProvider theme={theme}>{children}</ThemeProvider>
     )
 }
